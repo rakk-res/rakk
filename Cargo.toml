@@ -1,0 +1,25 @@
+[package]
+name = "rakk"
+version = "0.1.0"
+edition = "2021"
+authors = ["rakk-res <194120946+rakk-res@users.noreply.github.com>"]
+description = "High-density execution infrastructure for autonomous trading agents."
+repository = "https://github.com/rakk-res/rakk"
+license = "MIT"
+readme = "README.md"
+keywords = ["trading", "infrastructure", "solana", "mev", "rack"]
+
+[dependencies]
+tokio = { version = "1.35", features = ["full", "tracing"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+async-trait = "0.1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+config = "0.13"
+sharded-slab = "0.1"
+crossbeam = "0.8"
+uuid = { version = "1.6", features = ["v4", "serde"] }
+hex = "0.4"
