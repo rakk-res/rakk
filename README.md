@@ -4,11 +4,15 @@
   <img src="./assets/rakkg.png" alt="Rakk" width="100%">
   <br/>
   <br/>
+  <a href="https://x.com/rakk_research">
+  <img src="https://img.shields.io/badge/X-rakk__research-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)">
+</a>
   <a href="https://github.com/rakk-res">
     <img src="https://img.shields.io/badge/Maintained%20by-Rakk%20Res-000000?style=for-the-badge&logo=github&logoColor=white" alt="Maintainer">
   </a>
   <img src="https://img.shields.io/badge/Rust-1.78%2B-orange?style=for-the-badge&logo=rust" alt="Rust Version">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  
   <br/>
   <br/>
   <p><strong>High-density Execution Infrastructure for Algorithmic Agents.</strong></p>
